@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/app/assets/logos/logo_transparent.png";
+import logo from "@/app/assets/logos/1.png";
 import uniqid from "uniqid";
 import MobileDrawer from "@/app/components/header/MobileDrawer";
 
@@ -44,8 +44,8 @@ const TopHeader = () => {
         <Link href="/">
           <Image
             src={logo}
-            width={150}
-            height={50}
+            width={70}
+            height={70}
             alt="Lily Decor"
             className=""
           />

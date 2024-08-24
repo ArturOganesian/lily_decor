@@ -15,7 +15,7 @@ const MobileDrawer = ({ open, showDrawer, closeDrawer, navLinks, logo }) => {
             width={100}
             height={100}
             alt="Lily Decor"
-            className="absolute -top-5 right-5"
+            className="absolute top-0 right-5"
           />
         }
         placement="left"
