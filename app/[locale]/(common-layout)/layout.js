@@ -1,6 +1,10 @@
-'use client';
+"use client";
 const RootLayout = ({ children }) => {
-  return <main>{children}</main>;
+  return (
+    <main>
+      {children}
+    </main>
+  );
 };
 
 export default RootLayout;
