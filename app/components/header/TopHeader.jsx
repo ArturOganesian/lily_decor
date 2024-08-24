@@ -40,7 +40,7 @@ const TopHeader = () => {
   ];
   return (
     <header className="flex justify-center py-10 w-full  h-[50px] shadow-2xl">
-      <div className="flex items-center justify-between gap-2 w-full container">
+      <div className="flex items-center justify-between gap-2 w-full container px-3">
         <Link href="/">
           <Image
             src={logo}
